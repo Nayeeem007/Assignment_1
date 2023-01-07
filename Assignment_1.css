@@ -85,6 +85,30 @@ li {
     margin-bottom: 10px;
 
 }
+/* To-do-list styles */
+.todolistheading{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     ;
+}
+.todolistpara{
+    margin-left: 50px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.extra-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.extra-image{
+         padding-top: 100px;
+         padding-right: 80px;
+}
 
 /* My Plan styles */
 .plan-container {
