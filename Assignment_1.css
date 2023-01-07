@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    width: 1516px;
+    height: 750px;
+    padding-bottom: 50px;
+}
+.banner-text{
+    margin-left: 1000px;
+     padding-top: 300px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-right: 50px;
+}
+.banner-description{
+    color: #FFFFFF;
+    padding-bottom: 32px;
+     line-height: 25px;
+     text-align: right;
+    margin-right: 50px;
+}
+.contact-btn{
+    height: 64px;
+    background:  white;
+    border-radius: 5px;
+    color: #005FAC;;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 25px 20px 26px;
+    border:  0;
+    text-align: right;
+     margin-left: 315px;
+
+}
+
+ul{
+    list-style: none;
+}
+ul li:before{
+    content:'✓';
+    color: #16D887 ;
+     
+}
+
+ /* main styles [picture and paragraphs] */
+.main{
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+    margin: 0 100px 0 50px;
+     
+}
+.main-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.main-subtitle{
+    color: #444343;
+    padding: 16px;
+    line-height: 27px;
+}
+li{
+    color: #444343; 
+    margin-bottom: 10px;
+ 
+}
+
+/* My Plan styles */
+.plan-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414; 
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-left: 20px;
+     
+}
+.test{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#extraJS{
+    margin-left: 15px;
+}
+#extraECOM{
+    margin-left: 40px;
+}
+#extraECOMdes{
+    margin-left: 50px;
+}
+
+
